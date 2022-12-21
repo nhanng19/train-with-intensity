@@ -12,7 +12,7 @@ const Contact = () => {
           incidunt.
         </p>
         <a href="#" className="btn">
-          get discount
+          send a message
         </a>
       </section>
     </>
