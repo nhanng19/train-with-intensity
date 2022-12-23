@@ -2,7 +2,7 @@ import "./JoinNow.css";
 const JoinNow = () => {
   return (
     <>
-      <section className="banner">
+      <section  className="banner">
         <span>join us now</span>
         <h3>download free programs</h3>
         <p>
