@@ -1,5 +1,6 @@
 import "./Landing.css"
 import video from "../../img/Homepage.mp4"
+import demo from "../../img/demo.mov"
 import background from "../../img/home-bg-1.jpg"
 const Landing = () => {
 
@@ -10,9 +11,9 @@ const Landing = () => {
           autoplay="autoplay"
           muted
           loop
-          plays-inline
+          playsinline="playsinline"
         >
-          <source src={video} type="video/mp4" />
+          <source src={demo} type="video/mp4" />
         </video>
         <div className="swiper home-slider">
           <div className="swiper-wrapper">

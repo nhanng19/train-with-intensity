@@ -11,11 +11,11 @@ const NavBar = () => {
         <div id="menu-btn" className="fas fa-bars"></div>
 
         <nav className="navbar">
-          <a href="#home">home</a>
-          <a href="#features">features</a>
-          <a href="#about">about</a>
-          <a href="#trainers">testimonials</a>
-          <a href="#contact">contact</a>
+          <a href="#home">HOME</a>
+          <a href="#features">SERVICES</a>
+          <a href="#about">ABOUT</a>
+          <a href="#testimonials">TESTIMONIALS</a>
+          <a href="#contact">CONTACT</a>
         </nav>
       </header>
     );

@@ -5,64 +5,56 @@ import img3 from "../../img/f-img-3.jpg";
 import icon1 from "../../img/icon-1.png";
 import icon2 from "../../img/icon-2.png";
 import icon3 from "../../img/icon-3.png";
-
+import Food from "../../img/Food.png";
 const Services = () => {
   return (
     <section className="features" id="features">
       <h1 className="heading">
-        {" "}
         <span>Services</span>{" "}
       </h1>
 
       <div className="box-container">
-        <div className="box">
+        <div data-aos="fade-up" className="box">
           <div className="image">
             <img src={img1} alt="" />
           </div>
           <div className="content">
             <img src={icon1} alt="" />
-            <h3>body building</h3>
+            <h3>Exclusive 1 on 1 Training</h3>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              Similique, atque.
+              A 1 on 1 training experience expertly crafted for your goals.
+              Every minute is calculated to ensure that your purpose is met
+              efficiently.
             </p>
-            <a href="#" className="btn">
-              read more
-            </a>
           </div>
         </div>
 
-        <div className="box second">
+        <div data-aos="fade-down" className="box second">
+          <div className="image">
+            <img src={Food} alt="" />
+          </div>
+          <div className="content">
+            <img src={icon2} alt="" />
+            <h3>Meal Prep Service</h3>
+            <p>
+              A service created for those who do not have time to prepare food
+              that will get them to their health and fitness goals.
+            </p>
+          </div>
+        </div>
+
+        <div data-aos="fade-up" className="box">
           <div className="image">
             <img src={img2} alt="" />
           </div>
           <div className="content">
-            <img src={icon2} alt="" />
-            <h3>gym for men</h3>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              Similique, atque.
-            </p>
-            <a href="#" className="btn">
-              read more
-            </a>
-          </div>
-        </div>
-
-        <div className="box">
-          <div className="image">
-            <img src={img3} alt="" />
-          </div>
-          <div className="content">
             <img src={icon3} alt="" />
-            <h3>gym for women</h3>
+            <h3>Engaging Duo Training</h3>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              Similique, atque.
+              Built for you and your friend to enjoy the intensity of a rigorous
+              training session, while experiencing the gratification of goals
+              met.
             </p>
-            <a href="#" className="btn">
-              read more
-            </a>
           </div>
         </div>
       </div>
