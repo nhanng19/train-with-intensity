@@ -9,7 +9,9 @@ import Testimonials from "./components/Testimonials/Testimonials";
 import Aos from "aos";
 import { useEffect } from "react";
 import "aos/dist/aos.css";
+
 function App() {
+
   useEffect(() => {
     Aos.init({ duration: 1000 });
   }, []);

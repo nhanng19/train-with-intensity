@@ -4,6 +4,7 @@ import Ruben from "../../img/pic-1.png";
 import Jalen from "../../img/pic-3.png";
 import Audrina from "../../img/pic-2.png"
 import Joanne from "../../img/pic-4.png"
+import Aileen from "../../img/pic-5.png"
 const Testimonials = () => {
   useEffect(() => {
     const inlineScript = document.createElement("script");
@@ -33,7 +34,7 @@ const Testimonials = () => {
 
   return (
     <section class="review" id="testimonials">
-      <div class="information">
+      <div data-aos="slide-left" class="information">
         <span>Testimonials</span>
         <h3>What the clients say</h3>
         <p>
@@ -43,9 +44,9 @@ const Testimonials = () => {
         </p>
       </div>
 
-      <div class="swiper review-slider">
+      <div data-aos = "fade-in"class="swiper review-slider">
         <div class="swiper-wrapper">
-          <div class="swiper-slide slide">
+          <div  class="swiper-slide slide">
             <p>
               Training with Bryan has not only allowed me to maximize my
               progress, but has also given me a different outlook of life. He'll
@@ -62,9 +63,9 @@ const Testimonials = () => {
             </div>
           </div>
 
-          <div class="swiper-slide slide">
+          <div  class="swiper-slide slide">
             <p>
-              He's not only given me knowledge about fitness but has finally
+              Bryan has not only given me knowledge about fitness but has finally
               made me confident in myself. Pushing me through the toughest
               workouts and never quitting, always comitting.
             </p>
@@ -111,12 +112,13 @@ const Testimonials = () => {
           </div>
           <div class="swiper-slide slide">
             <p>
-              My goal was to gain weight and muscle, but I never saw big
-              results after I tried working on for years. It wasn't until I started training with Bryan that I
-              started to see major results in just a few months! 
+              My goal was to gain weight and muscle, but I never saw big results
+              after I tried working on for years. It wasn't until I started
+              training with Bryan that I started to see major results in just a
+              few months!
             </p>
             <div class="user">
-              <img src="images/pic-4.png" alt="" />
+              <img src={Aileen} alt="" />
               <div class="info">
                 <h3>Aileen</h3>
                 <span>Registered Nurse</span>

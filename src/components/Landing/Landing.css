@@ -19,7 +19,7 @@
 
 .home .slide .content {
   width: 60rem;
-  position: fixed
+  position: fixed;
 }
 
 .home .slide .content h4 {
@@ -62,8 +62,7 @@
   object-fit: contain;
   right: 0;
   bottom: 0;
-      min-width: 100%; 
-    min-height: 100%;
+  min-width: 100%;
+  min-height: 100%;
   z-index: -1;
-  overflow: hidden;
 }

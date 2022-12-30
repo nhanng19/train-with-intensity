@@ -4,14 +4,16 @@ const About = () => {
   return (
     <>
       <section className="about" id="about">
-        <div className="image">
+        <div data-aos="fade-in"  className="image">
           <img src={about} alt="" />
         </div>
 
         <div className="content">
-          <span>About Bryan</span>
-          <h3 className="title">Every day is a chance to improve</h3>
-          <p>
+          <span data-aos="fade-in">About Bryan</span>
+          <h3 data-aos="fade-in" className="title">
+            Every day is a chance to improve
+          </h3>
+          <p data-aos="fade-in">
             I started doing martial arts at a young age and competed in multiple
             tournaments. In most of my tournaments I was required to drop some
             weight, so dieting has always been part of my life. After some years
@@ -32,10 +34,10 @@ const About = () => {
             in my ability to help you reach your goals, and I have built to
             guarantee your success.
           </p>
-          <div className="box-container">
+          <div data-aos="fade-in" className="box-container">
             <div className="box">
               <h3>
-                <i className="fas fa-check"></i>body and mind
+                <i className="fas fa-check"></i>Strength
               </h3>
               <p>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Est,
@@ -44,7 +46,7 @@ const About = () => {
             </div>
             <div className="box">
               <h3>
-                <i className="fas fa-check"></i>healthy life
+                <i className="fas fa-check"></i>Fat Loss
               </h3>
               <p>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Est,
@@ -53,7 +55,7 @@ const About = () => {
             </div>
             <div className="box">
               <h3>
-                <i className="fas fa-check"></i>strategies
+                <i className="fas fa-check"></i>Mass Building
               </h3>
               <p>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Est,
@@ -61,7 +63,7 @@ const About = () => {
               </p>
             </div>
           </div>
-          <a href="#" className="btn">
+          <a href="#" data-aos="fade-in" className="btn">
             read more
           </a>
         </div>

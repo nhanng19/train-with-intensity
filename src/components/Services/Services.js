@@ -10,7 +10,7 @@ const Services = () => {
   return (
     <section className="features" id="features">
       <h1 className="heading">
-        <span>Services</span>{" "}
+        <span>SERVICES</span>
       </h1>
 
       <div className="box-container">
