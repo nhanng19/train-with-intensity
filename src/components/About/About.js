@@ -11,7 +11,7 @@ const About = () => {
         <div className="content">
           <span data-aos="fade-in">About Bryan</span>
           <h3 data-aos="fade-in" className="title">
-            Every day is a chance to improve
+            Be Stronger Than Your Excuses
           </h3>
           <p data-aos="fade-in">
             I started doing martial arts at a young age and competed in multiple

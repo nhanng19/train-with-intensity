@@ -40,8 +40,12 @@ const Footer = () => {
                   href="https://www.facebook.com/bryan.nguyen.969"
                   className="fab fa-facebook-f"
                 ></a>
+                <a
+                  href="mailto: bryannguyen557@gmail.com"
+                  className="fas fa-envelope"
+                ></a>
               </div>
-              <h4>
+              <h4 style={{marginTop: "10px"}}>
                 Copyright © 2022 <a href="#">BuzyFitness</a>
               </h4>
               <h4>

@@ -21,17 +21,13 @@ const Landing = () => {
       >
         <source src={demo} type="video/mp4" />
       </video>
-      <div
-        data-aos="fade-in"
-        data-aos-delay="3000"
-        className="swiper home-slider"
-      >
+      <div className="swiper home-slider">
         <div className="swiper-wrapper">
           <div
             className="swiper-slide slide"
             // style={{ backgroundImage: `url(${background})` }}
           >
-            <div className="content">
+            <div data-aos="fade-in" data-aos-delay="3000" className="content">
               <h4>TRAIN STRONG, TRAIN FIT</h4>
               <h3>TRAIN WITH INTENSITY</h3>
               <a href="#download" className="btn">

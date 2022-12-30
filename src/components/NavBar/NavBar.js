@@ -2,7 +2,7 @@ import "./NavBar.css";
 import Logo from "../Logo/Logo.js";
 const NavBar = () => {
   return (
-    <header data-aos="slide-down" data-aos-delay="2700" className="header">
+    <header data-aos="slide-down" data-aos-delay="3000" className="header">
       <a href="#" className="logo">
         <Logo />
       </a>
