@@ -2,9 +2,9 @@ import { useEffect } from "react";
 import "./Testimonials.css";
 import Ruben from "../../img/pic-1.png";
 import Jalen from "../../img/pic-3.png";
-import Audrina from "../../img/pic-2.png"
-import Joanne from "../../img/pic-4.png"
-import Aileen from "../../img/pic-5.png"
+import Audrina from "../../img/pic-2.png";
+import Joanne from "../../img/pic-4.png";
+import Aileen from "../../img/pic-5.png";
 const Testimonials = () => {
   useEffect(() => {
     const inlineScript = document.createElement("script");
@@ -38,15 +38,16 @@ const Testimonials = () => {
         <span>Testimonials</span>
         <h3>What the clients say</h3>
         <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis
-          voluptas praesentium asperiores fugiat, excepturi odit obcaecati a
-          voluptatibus earum quisquam?
+          Bryan trains individuals who put in more than 40 hours work week to acheive
+          their goals in less than 3 months. Learn how their success with
+          BuzyFitness has impacted them to build stronger self confidence and
+          encourage the way they do fitness.
         </p>
       </div>
 
-      <div data-aos = "fade-in"class="swiper review-slider">
+      <div data-aos="fade-in" class="swiper review-slider">
         <div class="swiper-wrapper">
-          <div  class="swiper-slide slide">
+          <div class="swiper-slide slide">
             <p>
               Training with Bryan has not only allowed me to maximize my
               progress, but has also given me a different outlook of life. He'll
@@ -57,31 +58,31 @@ const Testimonials = () => {
               <img src={Ruben} alt="" />
               <div class="info">
                 <h3>Ruben</h3>
-                <span>Body Builder</span>
+                <span>Blue Collar Worker</span>
               </div>
-              <i class="fas fa-quote-left"></i>
-            </div>
-          </div>
-
-          <div  class="swiper-slide slide">
-            <p>
-              Bryan has not only given me knowledge about fitness but has finally
-              made me confident in myself. Pushing me through the toughest
-              workouts and never quitting, always comitting.
-            </p>
-            <div class="user">
-              <img src={Jalen} alt="" />
-              <div class="info">
-                <h3>Jalen</h3>
-                <span>Restaurant Manager</span>
-              </div>
-              <i class="fas fa-quote-left"></i>
+              <i class="fas fa-fire"></i>
             </div>
           </div>
 
           <div class="swiper-slide slide">
             <p>
-              Bryan has always kept my accountable to show up to my sessions for
+              Bryan has not only given me knowledge about fitness but has
+              finally made me confident in myself. Pushing me through the
+              toughest workouts and never quitting, always comitting.
+            </p>
+            <div class="user">
+              <img src={Jalen} alt="" />
+              <div class="info">
+                <h3>Jalen</h3>
+                <span>Restaurant Operator</span>
+              </div>
+              <i class="fas fa-fire"></i>
+            </div>
+          </div>
+
+          <div class="swiper-slide slide">
+            <p>
+              Bryan has always kept me accountable to show up to my sessions for
               the week and will even sacrifice his own time to accomodate my
               schedule as a full time college student and full time worker.
             </p>
@@ -91,7 +92,7 @@ const Testimonials = () => {
                 <h3>Joanne</h3>
                 <span>Student</span>
               </div>
-              <i class="fas fa-quote-left"></i>
+              <i class="fas fa-fire"></i>
             </div>
           </div>
 
@@ -105,9 +106,9 @@ const Testimonials = () => {
               <img src={Audrina} alt="" />
               <div class="info">
                 <h3>Audrina</h3>
-                <span>Student</span>
+                <span>Mother</span>
               </div>
-              <i class="fas fa-quote-left"></i>
+              <i class="fas fa-fire"></i>
             </div>
           </div>
           <div class="swiper-slide slide">
@@ -123,7 +124,7 @@ const Testimonials = () => {
                 <h3>Aileen</h3>
                 <span>Registered Nurse</span>
               </div>
-              <i class="fas fa-quote-left"></i>
+              <i class="fas fa-fire"></i>
             </div>
           </div>
         </div>

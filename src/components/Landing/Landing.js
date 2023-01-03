@@ -1,15 +1,11 @@
 import "./Landing.css";
 import demo from "../../img/demo.mov";
-import intro from "../../img/intro.mp3";
-import silence from "../../img/silence.mp3";
+import Button from "../UI/Button";
+import Newsletter from "../Newsletter/Newsletter";
 const Landing = () => {
-
   return (
     <section className="home" id="home">
-      <audio id="audio" autoplay>
-        <source src={intro} type="audio/mp3" />
-        Your browser does not support the audio element.
-      </audio>
+
       <video
         data-aos="fade-in"
         data-aos-delay="3000"
@@ -21,21 +17,15 @@ const Landing = () => {
       >
         <source src={demo} type="video/mp4" />
       </video>
-      <div className="swiper home-slider">
-        <div className="swiper-wrapper">
-          <div
-            className="swiper-slide slide"
-            // style={{ backgroundImage: `url(${background})` }}
-          >
-            <div data-aos="fade-in" data-aos-delay="3000" className="content">
-              <h4>TRAIN STRONG, TRAIN FIT</h4>
+
+
+          <div data-aos="fade-in" data-aos-delay="3000" className="swiper-slide slide">
+            <div className="content">
+              <h4>BRYAN NGUYEN</h4>
               <h3>TRAIN WITH INTENSITY</h3>
-              <a href="#download" className="btn">
-                GET STARTED
-              </a>
+              <Button href="#download" action="Get Started" icon="fas fa-arrow-down"/>
             </div>
-          </div>
-        </div>
+ 
 
         <div className="swiper-pagination"></div>
       </div>

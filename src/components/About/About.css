@@ -19,14 +19,7 @@
   position: relative;
 }
 
-.about .image::before, .about .image::after {
-  content: '';
-  position: absolute;
-  z-index: -1;
-  background: #f00;
-  height: 15rem;
-  width: 15rem;
-}
+
 
 .about .image::before {
   top: 0;

@@ -34,10 +34,12 @@
   font-size: 1.7rem;
   color: #fff;
   cursor: pointer;
+  -webkit-transition: all 0.2s linear;
+  transition: all 0.2s linear;
 }
 
 .header .navbar a:hover {
-  background: #f00;
+  color: red;
 }
 
 @media (max-width: 991px) {
@@ -73,22 +75,15 @@
   .header {
     padding: 2rem;
   }
-  .header .navbar {
-    position: absolute;
-    top: 99%;
-    left: 0;
-    right: 0;
-    background: #000;
-    -webkit-clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
-    clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
-  }
-  .header .navbar.active {
-    -webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
-    clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
-  }
   .header .navbar a {
-    display: block;
-    font-size: 2rem;
+    position: absolute;
+    display: none;
+  }
+
+  .header .navbar i {
+    position: absolute;
+    top: 2rem;
+    right: 3rem;
   }
   .about {
     gap: 3rem;

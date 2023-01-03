@@ -1,10 +1,10 @@
-const Logo = () => {
+const Logo = (props) => {
     return (
       <svg
         className="buzy"
-        width="300"
-        height="40"
-        viewBox="0 0 1000 133"
+        width="320"
+        height={props.height}
+        viewBox={props.viewBox}
         fill="none"
         xmlns="http://www.w3.org/2000/svg"
       >

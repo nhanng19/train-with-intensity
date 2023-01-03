@@ -7,7 +7,7 @@
     <meta name="theme-color" content="#000000" />
     <meta
       name="description"
-      content="Web site created using create-react-app"
+      content="Premium Personal Training Service Includes 1-on-1 training, Food Prep Service, Dou Training, and Quality Equipments."
     />
     <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
     <!--
@@ -17,9 +17,12 @@
     <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
     <link
       rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
     />
-
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
     <link
       rel="stylesheet"
       href="https://unpkg.com/swiper@7/swiper-bundle.min.css"
@@ -41,8 +44,16 @@
     -->
     <title>BuzyFitness || Train With Intensity</title>
   </head>
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-V78MDZVPK2"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
 
-  <body onload="move()">
+  gtag('config', 'G-V78MDZVPK2');
+</script>
+
+  <body>
     <div id="preloader">
       <div id="wrapper">
         <svg
@@ -143,6 +154,7 @@
       To create a production bundle, use `npm run build` or `yarn build`.
     -->
   </body>
+
   <script>
     const tll = gsap.timeline({
       paused: "true",
@@ -158,7 +170,6 @@
     var id;
     function move() {
       id = setInterval(frame, 10);
-
     }
     function frame() {
       if (width >= 100) {
@@ -170,6 +181,7 @@
         document.getElementById("percent").innerHTML = width + "%";
       }
     }
+    move();
   </script>
   <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
 </html>

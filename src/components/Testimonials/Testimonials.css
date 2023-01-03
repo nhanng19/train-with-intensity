@@ -83,13 +83,13 @@
       }
 
       .review .review-slider .slide .user i {
-        font-size: 5rem;
+        font-size: 2rem;
         margin-left: auto;
         margin-right: 2rem;
         color: #f00;
       }
 
-      @media screen and (max-width: 480px) {
+      @media screen and (max-width: 600px) {
         .review {
            overflow-x:hidden
         }

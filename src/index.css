@@ -1,14 +1,13 @@
 @import url("https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;600&display=swap");
 * {
-  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
   padding: 0;
   -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
   text-decoration: none;
   outline: none;
   border: none;
-
 }
 
 html {
@@ -38,74 +37,109 @@ section {
   padding: 5rem 9%;
 }
 
-      #preloader {
-        position: fixed;
-        top: 0;
-        left: 0;
-        right: 0;
-        left: 0;
-        align-items: center;
-        width: 100%;
-        height: 100%;
-        z-index: 100;
-        background-color: #000000;
-        display: flex;
-        flex-direction: column;
-        justify-content: space-between;
-      }
-      #wrapper {
-        position: absolute;
-        top: 40%;
+.button-54 {
+  margin-top: 1rem;
+  display: inline-block;
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
+  letter-spacing: 2px;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: rgb(255, 255, 255);
+  background-color: rgb(255, 0, 0, 0.7);
+  cursor: pointer;
+  border: 1px solid;
+  padding: 0.25em 0.5em;
+  box-shadow: 1px 1px 0px 0px, 2px 2px 0px 0px, 2px 2px 0px 0px, 3px 3px 0px 0px,
+    4px 4px 0px 0px;
+  position: relative;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  transition: all 0.2s linear;
+}
+.button-54:active {
+  box-shadow: 0px 0px 0px 0px;
+  top: 5px;
+  left: 5px;
+}
 
-        width: 100%;
-        align-items: center;
-        height: 20%;
-        display: flex;
-        flex-direction: column;
-        justify-content: space-between;
-      }
-      #percent {
-        font-size: 1.5rem;
-        color: white;
-        margin-top: 20px;
-      }
-      #bar {
-        width: 60%;
-        margin-top: 20px;
-      }
-      #barconfrm {
-        width: 1%;
-        padding: 10px 0px;
-        background-color: rgb(255, 0, 0);
-      }
-      .buzy .path1 {
-        stroke: red;
-        stroke-dasharray: 1774;
-        stroke-dashoffset: 1774;
-        fill: rgb(255, 0, 0);
-        fill-opacity: 0;
-        animation: line-anim 7s ease forwards, fill 1s ease forwards 2s;
-      }
+.button-54 a {
+  color: white;
+  text-decoration: none;
+}
 
-      .buzy .path2 {
-        stroke-dasharray: 1774;
-        stroke-dashoffset: 1774;
-        fill: rgb(255, 255, 255);
-        fill-opacity: 0;
-        animation: line-anim 7s ease forwards, fill 1s ease forwards 2s;
-      }
+.button-54:hover {
+  transform: scale(1.05);
+}
+#preloader {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  left: 0;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  z-index: 100;
+  background-color: #000000;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+#wrapper {
+  position: absolute;
+  top: 40%;
 
-      @keyframes line-anim {
-        to {
-          stroke-dashoffset: 0;
-        }
-      }
+  width: 100%;
+  align-items: center;
+  height: 20%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+#percent {
+  font-size: 1.5rem;
+  color: white;
+  margin-top: 20px;
+}
+#bar {
+  width: 60%;
+  margin-top: 20px;
+}
+#barconfrm {
+  width: 1%;
+  padding: 10px 0px;
+  background-color: rgb(255, 0, 0);
+}
+.buzy .path1, .newsletterBuzy .path1 {
+  stroke: red;
+  stroke-dasharray: 1774;
+  stroke-dashoffset: 1774;
+  fill: rgb(255, 0, 0);
+  fill-opacity: 0;
+  animation: line-anim 7s ease forwards, fill 1s ease forwards 2s;
+}
 
-      @keyframes fill {
-        from {
-          fill-opacity: 0;
-        }
-        to {
-          fill-opacity: 1;
-        }
-      }
+.buzy .path2, .newsletterBuzy .path2 {
+  stroke-dasharray: 1774;
+  stroke-dashoffset: 1774;
+  fill: rgb(255, 255, 255);
+  fill-opacity: 0;
+  animation: line-anim 7s ease forwards, fill 1s ease forwards 2s;
+}
+
+@keyframes line-anim {
+  to {
+    stroke-dashoffset: 0;
+  }
+}
+
+@keyframes fill {
+  from {
+    fill-opacity: 0;
+  }
+  to {
+    fill-opacity: 1;
+  }
+}

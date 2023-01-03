@@ -60,7 +60,7 @@ const Footer = () => {
               </h4>
             </div>
             <div className="box">
-              <h3>Quick Links</h3>
+              <h3>Quick Navigation</h3>
               <a className="links" href="#home">
                 Home
               </a>
