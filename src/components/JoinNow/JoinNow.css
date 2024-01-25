@@ -1,15 +1,16 @@
 .banner {
-  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.7)), to(rgba(0, 0, 0, 0.7))) no-repeat;
   background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)) no-repeat;
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
   text-align: center;
+  justify-content: center;
+  align-items: center;
 }
 
 .banner span {
   font-size: 2rem;
-  color: #f00;
+  color: #ff3434;
 }
 
 .banner h3 {

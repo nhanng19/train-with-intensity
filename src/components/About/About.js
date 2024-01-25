@@ -14,61 +14,64 @@ const About = () => {
             Fitness Is A Way Of Life
           </h3>
           <p data-aos="fade-in">
-            Bryan started doing martial arts at a young age and competed in multiple
-            tournaments. In most of his tournaments he was required to drop some
-            weight, so dieting has always been part of his life. After some years
-            passed he began Co - Coaching martial arts for different tournaments
-            in high school, and found his purpose in coaching. Once he phased out
-            of martial arts, Bryan started training his friends out of 2nd nature and
-            was very pleased with the results. When everything closed down
-            during covid, Bryan moved back in with his family and started his own
-            garage gym where he officially started personal training. He realized
-            in this period of his life he was getting a little too comfortable and
-            was starting to lose his sense of direction. Thankfully, Covid had
-            finally ended and Bryan made the choice to sell all of his equipment to
-            Train at Self Made Training Facility in Costa Mesa. It's been a year
-            since he has trained at Self Made, and the amount of growth in his
-            intuition and judgement has tripled as a coach, especially being
-            around so many dedicated coaches. Bryan is beyond excited to work with
-            whoever views this message because he has never been more confident
-            in his ability to help you reach your goals, and he has built to
-            guarantee your success.
+            Embark on a transformative fitness journey with Bryan, a true
+            testament to resilience and passion for health. In the realm of
+            combat sports, he grappled with the complexities of their
+            relationship with food. However, the story takes a triumphant turn
+            as he delved into the intricate world of fitness, unraveling the
+            mysteries of the human body. Bryan’s path to wellness is a narrative
+            of empowerment through knowledge. Armed with a profound
+            understanding of fitness principles, he not only conquered their
+            struggles but also emerged as a certified nutrition and powerlifting
+            coach. This journey is a fusion of dedication, education, and a
+            commitment to a bodybuilding style that epitomizes strength and
+            aesthetics. Join us on this empowering odyssey, where the fusion of
+            combat sports experience, fitness enlightenment, and coaching
+            expertise converge to inspire and guide you towards your own triumph
+            over challenges. This isn't just a fitness journey; it's a testament
+            to the transformative power of knowledge and determination. Welcome
+            to a realm where your fitness goals become a reality.
           </p>
           <div className="box-container">
-            <div className="box">
+            <div data-aos="fade-right" className="box">
               <h3>
                 <i className="fa-solid fa-dumbbell"></i>Strength
               </h3>
               <p>
-                Strength training is about defining a performance objective and
-                working towards it. In order to achieve goals efficiently and
-                effectively, the process must be planned carefully, which is
-                where the strength program comes in.
+                Elevate your fitness journey with our dynamic approach to
+                strength training – a comprehensive experience designed to
+                enhance not just your physical power, but also your mobility and
+                stability. Our strength training goes beyond lifting weights;
+                it's a holistic practice that transforms your entire body.
               </p>
             </div>
-            <div className="box">
+            <div data-aos="fade-right" data-aos-delay="100" className="box">
               <h3>
                 <i className="fa-solid fa-person-running"></i>Fat Loss
               </h3>
               <p>
-                Bryan provides programs that will help you burn calories, increase
-                endurance, improve athleticism, and even challenge you mentally.
-                Lose fat, maintain muscle mass, get in shape and transform your
-                physique as much as possible.
+                Embark on a transformative fat loss journey that transcends the
+                scale, focusing on more than just numbers. Our specialized fat
+                loss training is a holistic approach designed to elevate your
+                overall well-being, boost energy levels, sculpt aesthetics, and
+                ignite a newfound self-confidence
               </p>
             </div>
-            <div className="box">
+            <div data-aos="fade-right" data-aos-delay="200" className="box">
               <h3>
-                <i style={{ color: "transparent", textShadow: "0 0 0 red" }}>
+                <i
+                  style={{ color: "transparent", textShadow: "0 0 0 #ff3434" }}
+                >
                   💪
                 </i>
-                Mass Building
+                Bodybuilding
               </h3>
               <p>
-                Workouts to increase your muscle mass as much as possible in 10
-                weeks. Works each muscle group hard once per week using mostly
-                heavy compound exercises, while following a strict bulking diet
-                to ensure maximum gains.
+                Step into a realm of fitness where strength meets aesthetics,
+                and weaknesses are transformed into strengths. Our
+                bodybuilding-style training is a symphony of precision,
+                dedicated to building mass around your unique weak points while
+                amplifying overall strength.
               </p>
             </div>
           </div>

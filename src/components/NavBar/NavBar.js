@@ -28,7 +28,7 @@ const NavBar = () => {
         <i
           onClick={playHandler}
           style={{
-            color: !isPlaying ? "white" : "red",
+            color: !isPlaying ? "white" : "#ff3434",
             height: "30px",
             width: "30px",
             padding: "1.5rem 2rem",

@@ -26,7 +26,7 @@ const Services = () => {
           </div>
         </div>
 
-        <div data-aos="fade-down" data-aos-delay="100" className="box second">
+        {/* <div data-aos="fade-down" data-aos-delay="100" className="box second">
           <div className="image">
             <img src={Food} alt="" />
           </div>
@@ -38,9 +38,9 @@ const Services = () => {
               that will get them to their health and fitness goals.
             </p>
           </div>
-        </div>
+        </div> */}
 
-        <div data-aos="fade-down" data-aos-delay="200" className="box">
+        <div data-aos="fade-down" data-aos-delay="200" className="box  second">
           <div className="image">
             <img src={img2} alt="" />
           </div>
@@ -55,7 +55,7 @@ const Services = () => {
           </div>
         </div>
 
-        <div data-aos="fade-down" data-aos-delay="300" className="box second">
+        <div data-aos="fade-down" data-aos-delay="300" className="box">
           <div className="image">
             <img src={Equipment} alt="" />
           </div>
@@ -63,10 +63,10 @@ const Services = () => {
           <div className="content">
             <h3>Quality Equipments</h3>
             <p>
-              Self Made Training Facility provies stackable plyometric boxes, weighted
-              medicine balls, battle ropes, squat racks, and deadlift platforms,
-              all the equipment you need to take your training to the next
-              level.
+              Self Made Training Facility provies stackable plyometric boxes,
+              weighted medicine balls, battle ropes, squat racks, and deadlift
+              platforms, all the equipment you need to take your training to the
+              next level.
             </p>
           </div>
         </div>

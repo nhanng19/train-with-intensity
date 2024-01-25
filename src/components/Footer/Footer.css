@@ -8,13 +8,12 @@
 }
 
 .left {
-    display: -ms-grid;
+  display: -ms-grid;
   display: grid;
   -ms-grid-columns: (minmax(25rem, 1fr)) [auto-fit];
   grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
   gap: 1.5rem;
   flex: 1;
-  
 }
 
 .right {
@@ -27,16 +26,13 @@
   padding: 1rem 0;
 }
 
-
-
 .footer .box-container .box h4 {
   color: #fff;
 }
 
 .footer .box-container .box h4 a {
-  color: rgb(255, 0, 0);
+  color: #ff3434;
 }
-
 
 .footer .box-container .box .links {
   font-size: 1.5rem;
@@ -46,7 +42,7 @@
 }
 
 .footer .box-container .box .links:hover {
-  color: #f00;
+  color: #ff3434;
 }
 
 .footer .box-container .box p {
@@ -55,11 +51,9 @@
   padding: 1rem 0;
 }
 
-
-
 .footer .box-container .box p i {
   padding-right: 0.5rem;
-  color: #f00;
+  color: #ff3434;
 }
 
 .footer .box-container .box .share {
@@ -79,7 +73,7 @@
 }
 
 .footer .box-container .box .share a:hover {
-  background: #f00;
+  background: #ff3434;
 }
 
 .map {
@@ -89,13 +83,14 @@
   left: 0;
   right: 0;
   height: 100%;
-  width: 100%;
-  border: 1px solid rgb(255, 255, 255);
+  width: auto;
+  margin-left:20rem
+
+
 }
 
-
 @media screen and (max-width: 600px) {
-  .footer .box-container .right{
+  .footer .box-container .right {
     display: none;
   }
 }

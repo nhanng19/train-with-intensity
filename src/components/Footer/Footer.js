@@ -33,7 +33,7 @@ const Footer = () => {
                   className="fab fa-instagram"
                 ></a>
                 <a
-                  href="https://www.tiktok.com/@pt_bryanng"
+                  href="https://www.tiktok.com/@buzyfitness"
                   className="fab fa-tiktok"
                 ></a>
                 <a
@@ -45,7 +45,7 @@ const Footer = () => {
                   className="fas fa-envelope"
                 ></a>
               </div>
-              <h4 style={{marginTop: "10px"}}>
+              <h4 style={{ marginTop: "10px" }}>
                 Copyright © 2022 <a href="#">BuzyFitness</a>
               </h4>
               <h4>
@@ -55,8 +55,12 @@ const Footer = () => {
                 </a>
               </h4>
               <h4>
-                Built with React by{" "}
-                <a href="https://www.nhanngyn.tech/">Nhan Nguyen</a>
+                Photos by <a href="https://www.instagram.com/jaay_jpeg">Jaime</a> | Built with React by{" "}
+                <a href="https://www.nhanngyn.tech/">Nhan</a> | Inspired
+                by{" "}
+                <a href="https://www.youtube.com/@MrWebDesignerAnas">
+                  Shaikh
+                </a>
               </h4>
             </div>
             <div className="box">

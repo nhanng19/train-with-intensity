@@ -20,7 +20,7 @@ const JoinNow = () => {
           </p>
           <a onClick={showModalHandler}>
             <button class="button-54" role="button">
-              <i class="fas fa-download"></i>&nbsp;Download
+              Download&nbsp;<i class="fas fa-download"></i>
             </button>
           </a>
         </div>

@@ -38,10 +38,11 @@ const Testimonials = () => {
         <span>Testimonials</span>
         <h3>What the clients say</h3>
         <p>
-          Bryan trains individuals who put in more than 40 hours work week to acheive
-          their goals in less than 3 months. Learn how their success with
-          BuzyFitness has impacted them to build stronger self confidence and
-          encourage the way they do fitness.
+          Discover the real impact of our fitness community through the voices
+          of those who have walked the path before you. This is where stories of transformation, dedication, and
+          triumph come to life. These testimonials are more than words; they're
+          reflections of the incredible journeys undertaken by individuals just
+          like you.
         </p>
       </div>
 

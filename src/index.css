@@ -26,7 +26,8 @@ html::-webkit-scrollbar-track {
 }
 
 html::-webkit-scrollbar-thumb {
-  background: #f00;
+  background: #ff3434;
+  border-radius: 5px;
 }
 
 body {
@@ -38,26 +39,31 @@ section {
 }
 
 .button-54 {
-  margin-top: 1rem;
+  background: #ff3434;
+  background-image: linear-gradient(
+    rgba(0, 0, 0, 0),
+    rgba(0, 0, 0, 0.1) 50%,
+    rgba(0, 0, 0, 0.1)
+  );
+  background-repeat: repeat-x;
+  background-size: 200%;
+  background-position: 0 -100%;
+  width: auto;
   display: inline-block;
-  font-family: "Open Sans", sans-serif;
   font-size: 16px;
-  letter-spacing: 2px;
-  text-decoration: none;
-  text-transform: uppercase;
+  height: 42px;
+  padding: 0 20px;
+  border-radius: 5px;
   color: rgb(255, 255, 255);
-  background-color: rgb(255, 0, 0, 0.7);
-  cursor: pointer;
-  border: 1px solid;
-  padding: 0.25em 0.5em;
-  box-shadow: 1px 1px 0px 0px, 2px 2px 0px 0px, 2px 2px 0px 0px, 3px 3px 0px 0px,
-    4px 4px 0px 0px;
+  text-transform: uppercase;
+  line-height: 38px;
   position: relative;
-  user-select: none;
-  -webkit-user-select: none;
-  touch-action: manipulation;
-  transition: all 0.2s linear;
+  cursor: pointer;
+  text-transform: uppercase !important;
+  font-weight: bold !important;
 }
+
+
 .button-54:active {
   box-shadow: 0px 0px 0px 0px;
   top: 5px;
@@ -69,9 +75,7 @@ section {
   text-decoration: none;
 }
 
-.button-54:hover {
-  transform: scale(1.05);
-}
+
 #preloader {
   position: fixed;
   top: 0;
@@ -90,7 +94,6 @@ section {
 #wrapper {
   position: absolute;
   top: 40%;
-
   width: 100%;
   align-items: center;
   height: 20%;
@@ -106,27 +109,56 @@ section {
 #bar {
   width: 60%;
   margin-top: 20px;
+  background-color: #111;
 }
 #barconfrm {
   width: 1%;
-  padding: 10px 0px;
-  background-color: rgb(255, 0, 0);
+  padding: 5px 0px;
+  background-color: #ff3434;
 }
-.buzy .path1, .newsletterBuzy .path1 {
-  stroke: red;
+.buzy .path1,
+.newsletterBuzy .path1 {
+  stroke: #ff3434;
   stroke-dasharray: 1774;
   stroke-dashoffset: 1774;
-  fill: rgb(255, 0, 0);
+  fill: #ff3434;
   fill-opacity: 0;
   animation: line-anim 7s ease forwards, fill 1s ease forwards 2s;
 }
 
-.buzy .path2, .newsletterBuzy .path2 {
+.buzy .path2,
+.newsletterBuzy .path2 {
   stroke-dasharray: 1774;
   stroke-dashoffset: 1774;
   fill: rgb(255, 255, 255);
   fill-opacity: 0;
   animation: line-anim 7s ease forwards, fill 1s ease forwards 2s;
+}
+.to-bottom {
+	cursor: pointer;
+	font-size: 24px;
+	left: 50%;
+  bottom: 0;
+	position: absolute;
+}
+
+.to-bottom:before {
+    border-color: transparent transparent #ec3642;
+    border-style: solid;
+    border-width: 100px;
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    margin-left: -100px;
+    height: 0;
+    width: 0;
+}
+
+@media screen and (max-width: 600px) {
+  #bar {
+    width: 80%;
+  }
 }
 
 @keyframes line-anim {

@@ -15,7 +15,6 @@
   padding: 0 9%;
   z-index: 10;
   background: #000;
-  border-bottom: 1px solid red;
 }
 
 .header .logo {
@@ -25,7 +24,7 @@
 }
 
 .header .logo span {
-  color: #f00;
+  color: #ff3434;
 }
 
 .header .navbar a {
@@ -39,7 +38,7 @@
 }
 
 .header .navbar a:hover {
-  color: red;
+  color: #ff3434;
 }
 
 @media (max-width: 991px) {

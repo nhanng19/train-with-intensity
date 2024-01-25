@@ -3,23 +3,21 @@
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
+  flex-wrap: wrap;
   gap: 8rem;
   background-color: black;
 }
 
 .about .image {
   -webkit-box-flex: 1;
-      z-index: 3;
-      -ms-flex: 1 1 42rem;
-          flex: 1 1 42rem;
+  z-index: 3;
+  -ms-flex: 1 1 42rem;
+  flex: 1 1 42rem;
   position: relative;
 }
-
-
 
 .about .image::before {
   top: 0;
@@ -38,19 +36,19 @@
 
 .about .content {
   -webkit-box-flex: 1;
-      -ms-flex: 1 1 42rem;
-          flex: 1 1 42rem;
+  -ms-flex: 1 1 42rem;
+  flex: 1 1 42rem;
 }
 
 .about .content span {
   font-size: 2rem;
-  color: #f00;
+  color: #ff3434;
 }
 
 .about .content .title {
   font-size: 4rem;
   color: #fff;
-  margin-top: .5rem;
+  margin-top: 0.5rem;
 }
 
 .about .content p {
@@ -65,15 +63,15 @@
   display: -ms-flexbox;
   display: flex;
   -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
+  flex-wrap: wrap;
   gap: 2rem;
   margin-top: 1rem;
 }
 
 .about .content .box-container .box {
   -webkit-box-flex: 1;
-      -ms-flex: 1 1 20rem;
-          flex: 1 1 20rem;
+  -ms-flex: 1 1 20rem;
+  flex: 1 1 20rem;
 }
 
 .about .content .box-container .box h3 {
@@ -83,5 +81,5 @@
 
 .about .content .box-container .box h3 i {
   padding-right: 1.5rem;
-  color: #f00;
+  color: #ff3434;
 }

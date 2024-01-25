@@ -1,0 +1,67 @@
+.transformation-swiper-container {
+  width: 100%;
+  background: black;
+  padding: 0 9% 5rem 9%;
+  display: flex;
+  flex-direction: column;
+}
+
+.transformation-swiper {
+    width: 100%;
+    padding-top: 5rem
+}
+
+.transformation-slide {
+  width: 300px;
+  height: 500px ;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  align-items: self-start;
+}
+
+
+.transformation-slide-active div {
+  display: block;
+  opacity: 1;
+}
+
+.slide-one {
+  background: 
+    url("../../img/IMG_3228.jpg") no-repeat 50% 50% / contain;
+}
+
+.slide-two {
+  background: 
+        url("../../img/IMG_3229.jpg") no-repeat 50% 50% / contain;
+}
+
+.slide-three {
+  background: 
+        url("../../img/IMG_3230.jpg") no-repeat 50% 50% / contain;
+}
+
+.slide-four {
+  background: 
+        url("../../img/IMG_3231.jpg") no-repeat 50% 50% / contain;
+}
+
+.slide-five {
+  background: 
+    url("../../img/IMG_3232.jpg") no-repeat 50% 50% / contain;
+}
+
+.slide-six {
+  background: 
+        url("../../img/IMG_3233.jpg") no-repeat 50% 50% / contain;
+}
+
+.slide-seven {
+  background: 
+        url("../../img/IMG_3234.jpg") no-repeat 50% 50% / contain;
+}
+
+.slide-eight {
+  background: 
+        url("../../img/IMG_3236.jpg") no-repeat 50% 50% / contain;
+}

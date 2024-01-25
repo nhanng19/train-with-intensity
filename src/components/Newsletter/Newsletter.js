@@ -16,9 +16,9 @@ const Newsletter = (props) => {
     const enteredSocial = socialRef.current.value;
     const enteredEmail = emailRef.current.value;
     if (
-      enteredReferral.trim().length === 0 ||
-      enteredSocial.trim().length === 0 ||
-      enteredEmail.trim().length === 0
+      enteredReferral.trim().length <= 3 ||
+      enteredSocial.trim().length <= 3 ||
+      enteredEmail.trim().length <= 3
     ) {
       setFormIsValid(false);
       return;
@@ -41,7 +41,7 @@ const Newsletter = (props) => {
           (result) => {
             console.log(result.text);
             window.location.href =
-              "https://drive.google.com/drive/folders/1JzONx6EtxNQXdW-DxoIVX0o5izLD8d47?usp=sharing";
+              "https://drive.google.com/drive/u/0/folders/1JzONx6EtxNQXdW-DxoIVX0o5izLD8d47";
           },
           (error) => {
             console.log(error.text);
@@ -134,7 +134,7 @@ const Newsletter = (props) => {
             />
           </svg>
           <h4>
-            Plese fill out this form to keep in touch with BuzyFitness. In the
+            Please fill out this form to download programs for free. In the
             future, we'll send you a few emails a month with promotions, deals,
             and exclusive programs. You can unsubscribe at anytime by clicking
             the link at the bottom of every email. We'll never share your
@@ -148,24 +148,26 @@ const Newsletter = (props) => {
               placeholder="Instagram, TikTok, Friends, etc."
               name="user_referral"
             />
-            <h1>Instagram or TikTok handles</h1>
+            <h1>Leave your Instagram or TikTok</h1>
             <input
               type="text"
               ref={socialRef}
-              placeholder="Social Handles"
+              placeholder="@jondoe123"
               name="user_social"
             />
             <h1>Email address</h1>
             <input
               ref={emailRef}
               type="text"
-              placeholder="Email"
+              placeholder="jondoe123@gmail.com"
               name="user_email"
             />{" "}
-            <Button action="DOWNLOAD NOW" />{" "}
+            <div className="downloadBtn">
+              <Button action="DOWNLOAD NOW"/>{" "}
+            </div>
             {!formIsValid && (
-              <h1 style={{ color: "red" }}>
-                Please fill out the form to receive free programs!
+              <h1 style={{ color: "rgb(255, 77, 77)" }}>
+               *Please enter a valid input*
               </h1>
             )}
           </form>

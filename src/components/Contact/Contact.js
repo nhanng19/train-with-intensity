@@ -20,7 +20,7 @@ const Contact = () => {
           <Button
             icon="fas fa-envelope"
             href="mailto: bryannguyen557@gmail.com"
-            action="EMAIL"
+            action="EMAIL&nbsp;&nbsp;"
           />
         </div>
       </section>
