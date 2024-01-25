@@ -38,7 +38,7 @@ var swiper = new Swiper(".transformation-swiper", {
       slidesPerView: 1,
     },
     1024: {
-      slidesPerView: 2,
+      slidesPerView: 4,
     },
     1560: {
       slidesPerView: 4,
@@ -64,19 +64,15 @@ var swiper = new Swiper(".transformation-swiper", {
       <div class="swiper transformation-swiper">
         <div class="swiper-wrapper">
           <div class="swiper-slide transformation-slide slide-one"></div>
-
           <div class="swiper-slide transformation-slide slide-two"></div>
-
           <div class="swiper-slide transformation-slide slide-three"></div>
-
           <div class="swiper-slide transformation-slide slide-four"></div>
           <div class="swiper-slide transformation-slide slide-five"></div>
-
           <div class="swiper-slide transformation-slide slide-six"></div>
-
           <div class="swiper-slide transformation-slide slide-seven"></div>
-
           <div class="swiper-slide transformation-slide slide-eight"></div>
+          <div class="swiper-slide transformation-slide slide-nine"></div>
+          <div class="swiper-slide transformation-slide slide-ten"></div>
         </div>
       </div>
     </div>
